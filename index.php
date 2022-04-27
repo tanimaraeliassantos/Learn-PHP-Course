@@ -18,7 +18,9 @@
         <h1>
 
             <?php
-            echo 41 + 5;
+            $num_1 = 41;
+            $num_2 = 4;
+            echo $num_1 +  $num_2;
             ?>
 
         </h1>
