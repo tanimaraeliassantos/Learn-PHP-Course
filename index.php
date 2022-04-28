@@ -18,17 +18,8 @@
         <h1>
 
             <?php
-           $num_1 = 40;
-           $num_2 = 5;
-
-           if ($num_1 > 100) {
-             echo $num_1 . " is greater than 100";
-           } elseif ($num_2 == 4) {
-            echo $num_2 . " equals 4!";
-           } 
-           else {
-             echo $num_1 . " is smaller than 100 and not 4";
-           }
+          $first_names = array("Tanimara", "Emma", "Lara");
+          echo $first_names[2];
             ?>
 
         </h1>
