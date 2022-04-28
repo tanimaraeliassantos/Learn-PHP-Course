@@ -18,9 +18,7 @@
         <h1>
 
             <?php
-            $first_name = "Tanimara";
-            $last_name = "Santos";
-            echo $first_name . "<br/>" . $last_name;
+            echo "And then he said: \"He's beautiful!\" ";
             ?>
 
         </h1>
