@@ -18,12 +18,16 @@
         <h1>
 
             <?php
-           $first_name = "Tanimara";
+           $num_1 = 40;
+           $num_2 = 5;
 
-           if($first_name == "mara") {
-             echo "Hello Tanimara! How are you?";
-           } else {
-             echo "You're not Tanimara! Who are you?";
+           if ($num_1 > 100) {
+             echo $num_1 . " is greater than 100";
+           } elseif ($num_2 == 4) {
+            echo $num_2 . " equals 4!";
+           } 
+           else {
+             echo $num_1 . " is smaller than 100 and not 4";
            }
             ?>
 
