@@ -18,11 +18,9 @@
         <h1>
 
             <?php
-            $num_1 = 41;
-            $num_2 = 4;
-            echo $num_1 +  $num_2;
-            echo "<br/>";
-            echo $num_1--;
+            $first_name = "Tanimara";
+            $last_name = "Santos";
+            echo $first_name . " " . $last_name;
             ?>
 
         </h1>
