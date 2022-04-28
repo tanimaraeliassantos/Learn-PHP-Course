@@ -18,8 +18,10 @@
         <h1>
 
             <?php
+
           $first_names = array("Tanimara", "Emma", "Lara");
           echo $first_names[2];
+
             ?>
 
         </h1>
