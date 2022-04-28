@@ -18,7 +18,11 @@
         <h1>
 
             <?php
-            echo "And then he said: \"He's beautiful!\" ";
+           $first_name = "Tanimara";
+
+           if($first_name == "Tanimara") {
+             echo "Hello Tanimara! How are you?";
+           }
             ?>
 
         </h1>
