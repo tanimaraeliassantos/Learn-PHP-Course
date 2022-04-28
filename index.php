@@ -20,8 +20,10 @@
             <?php
            $first_name = "Tanimara";
 
-           if($first_name == "Tanimara") {
+           if($first_name == "mara") {
              echo "Hello Tanimara! How are you?";
+           } else {
+             echo "You're not Tanimara! Who are you?";
            }
             ?>
 
